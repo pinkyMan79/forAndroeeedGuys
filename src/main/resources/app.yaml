@@ -1,0 +1,14 @@
+db:
+  url: jdbc:postgresql://localhost:5431/SW_AGONA_DATABASE
+  username: postgres
+  password: terenin79
+  hikari:
+    max-pool-size: 10
+  driver:
+    classname: org.postgresql.Driver
+
+
+created:
+  by:
+    danila:
+      terenin: 200 OK
