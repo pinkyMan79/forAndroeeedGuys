@@ -16,11 +16,11 @@ import java.util.UUID;
 @MappedSuperclass
 @NoArgsConstructor
 @AllArgsConstructor
-public class AbstractEntity {
+public abstract class AbstractEntity {
 
     @Id
     @GenericGenerator(name = "UUID", strategy = "org.hibernate.id.UUIDGenerator")
     @GeneratedValue(generator = "UUID")
-    private UUID uuid;
+    protected UUID uuid;
 
 }
